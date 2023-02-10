@@ -63,8 +63,8 @@ body{
 }
 
 .tile{
-    width: 48px;
-    height: 48px;
+    width: 48.5px;
+    height: 48.5px;
     border: 1px solid #222831;  
     font-size: 20px;
     font-weight: bold;
@@ -72,6 +72,10 @@ body{
     justify-content: center;
     align-items: center;
     cursor: pointer; 
+}
+
+.tile:hover{
+    background-color: yellow;
 }
 
 .start-num{
@@ -120,6 +124,10 @@ body{
     cursor: pointer;
 }
 
+.digit:hover{
+    background-color: yellow;
+}
+
 .num-selected{
     background-color: #FFD369;   
 }
@@ -140,7 +148,9 @@ body{
     cursor: pointer;
 }
 
-
+#errase:hover{
+    background-color: yellow;
+}
 
 @media (max-width: 1090px) {
     #board{
