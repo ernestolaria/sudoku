@@ -152,14 +152,7 @@ body{
     background-color: yellow;
 }
 
-@media (max-width: 1900px) {
-    #board{
-        width: 447px;
-        height: 447px;
-    }
-}
-
-@media (max-width: 1090px) {
+@media (max-width: 1200px) {
     #board{
         width: 326px;
         height: 326px;
@@ -168,6 +161,15 @@ body{
         width: 34px;
         height: 34px;
     }  
+}
+
+@media (min-height: 800px) {
+    .mesage{
+        padding-top: 60px;
+    }
+    .container{
+        padding-top: 30px;
+    }
 }
 
 @media (max-width: 400px) {
@@ -185,15 +187,5 @@ body{
     }
     .container{
         padding-top: 20px;
-    }
-
-}
-
-@media (min-height: 800px) {
-    .mesage{
-        padding-top: 60px;
-    }
-    .container{
-        padding-top: 30px;
     }
 }
