@@ -152,7 +152,7 @@ body{
     background-color: yellow;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1900px) {
     #board{
         width: 326px;
         height: 326px;
