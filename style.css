@@ -152,6 +152,13 @@ body{
     background-color: yellow;
 }
 
+@media (max-width: 2256px) {
+    #board{
+        width: 447px;
+        height: 447px;
+    }
+}
+
 @media (max-width: 1090px) {
     #board{
         width: 326px;
