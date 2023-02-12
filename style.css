@@ -57,7 +57,6 @@ body{
     flex-wrap: wrap;
     margin: 0 auto; 
     justify-content: center;
-    border-radius: 6px;
     overflow: hidden;
 }
 
@@ -72,6 +71,22 @@ body{
     justify-content: center;
     align-items: center;
     cursor: pointer; 
+}
+
+.top-left-corner-tile{
+    border-top-left-radius: 6px;
+}
+
+.top-right-corner-tile{
+    border-top-right-radius: 6px;
+}
+
+.bottom-left-corner-tile{
+    border-bottom-left-radius: 6px;
+}
+
+.bottom-right-corner-tile{
+    border-bottom-right-radius: 6px;
 }
 
 .tile:hover{
