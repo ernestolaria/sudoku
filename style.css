@@ -152,7 +152,7 @@ body{
     background-color: yellow;
 }
 
-@media (max-width: 2256px) {
+@media (max-width: 1900px) {
     #board{
         width: 447px;
         height: 447px;
@@ -167,9 +167,7 @@ body{
     .tile{
         width: 34px;
         height: 34px;
-    }
-    
-
+    }  
 }
 
 @media (max-width: 400px) {
