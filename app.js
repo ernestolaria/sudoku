@@ -31,6 +31,18 @@ function setTable(){
             tile.id = row + ' ' + col; 
             document.getElementById("board").append(tile);
             printValues(tile, row, col);
+            if(row==0 && col==0){
+                tile.classList.add("top-left-corner-tile");
+            }
+            if(row==0 && col==8){
+                tile.classList.add("top-right-corner-tile");
+            }
+            if(row==8 && col==0){
+                tile.classList.add("bottom-left-corner-tile");
+            }
+            if(row==8 && col==8){
+                tile.classList.add("bottom-right-corner-tile");
+            }
             if(row==2 || row==5){
                 tile.classList.add("horizontal-line"); 
             }
@@ -38,7 +50,6 @@ function setTable(){
                 tile.classList.add("vertical-line"); 
             }
             tile.addEventListener("click", selectTile);   
-
         }
     }         
 }
