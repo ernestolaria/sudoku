@@ -121,7 +121,9 @@ body{
     flex-wrap: wrap;
     margin: 0 auto;
     grid-row-gap: 1px;
-    grid-column-gap: 4px;        
+    grid-column-gap: 4px;  
+    justify-content: center;
+    align-items: center;      
 }
 
 .digit{
@@ -129,7 +131,7 @@ body{
     height: 50px;
     background-color: grey;
     border: 1px solid grey;
-    border-radius: 10px;
+    border-radius: 8px;
     font-size: 20px;
     font-weight: bold;
     display: flex;
@@ -146,15 +148,11 @@ body{
     background-color: #FFD369;   
 }
 
-.keys{
-    display: block; 
-}
-
 #errase{
     height: 50px;
-    width: 164px;
-    margin-top: 1px;
-    border-radius: 10px;
+    width: 162px;
+    margin-top: 3px;
+    border-radius: 8px;
     border: none;
     background-color: #FFD369;
     font-size: 20px;
