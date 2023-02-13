@@ -39,6 +39,10 @@ body{
     cursor: pointer;
 }
 
+.nav-bar .button:hover{
+    background-color: yellow;
+}
+
 .mesage{
     color: #EEEEEE;
     height: 3vh;
@@ -63,8 +67,8 @@ body{
 .tile{
     width: 48px;
     height: 48px;
-    background-color: #777;
-    border: 1px solid #222831;  
+    background-color: #EEEEEE;
+    border: 1px solid #666; 
     font-size: 20px;
     font-weight: bold;
     display: flex;
@@ -94,7 +98,7 @@ body{
 }
 
 .start-num{
-    background-color: #4a4d4ed9;
+    background-color: gray;
     cursor: default;
 }
 
@@ -115,8 +119,8 @@ body{
 
 #keypad{
     width: 166px;
-    height: 166px;
-    padding-top: 25px;
+    height: 136px;
+    padding-top: 20px;
     display: flex;
     flex-wrap: wrap;
     margin: 0 auto;
@@ -126,12 +130,13 @@ body{
     align-items: center;      
 }
 
-.digit{
-    width: 50px;
-    height: 50px;
-    background-color: grey;
-    border: 1px solid grey;
+.digit{ 
+    width: 40px;
+    height: 40px;
+    background-color: #EEEEEE;
+    border: 1px solid #EEEEEE;
     border-radius: 8px;
+    margin-top: 1px;
     font-size: 20px;
     font-weight: bold;
     display: flex;
@@ -149,8 +154,8 @@ body{
 }
 
 #errase{
-    height: 50px;
-    width: 162px;
+    height: 40px;
+    width: 132px;
     margin-top: 3px;
     border-radius: 8px;
     border: none;
@@ -182,6 +187,18 @@ body{
     }
     .container{
         padding-top: 30px;
+    }
+    #keypad{
+        width: 166px;
+        height: 166px;
+    }
+    .digit{
+        width: 50px;
+        height: 50px;
+    }
+    #errase{
+        height: 50px;
+        width: 162px;
     }
 }
 
