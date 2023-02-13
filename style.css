@@ -181,7 +181,7 @@ body{
 }
 
 
-@media (min-height: 800px) {
+@media (max-width: 800px) {
     .mesage{
         padding-top: 60px;
     }
