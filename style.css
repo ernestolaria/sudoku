@@ -40,7 +40,8 @@ body{
 }
 
 .nav-bar .button:hover{
-    background-color: yellow;
+    background-color: #FFD369;
+    border: 2px solid #FFD369;
 }
 
 .mesage{
@@ -94,7 +95,7 @@ body{
 }
 
 .tile:hover{
-    background-color: yellow;
+    background-color: #FFD369;
 }
 
 .start-num{
@@ -146,7 +147,8 @@ body{
 }
 
 .digit:hover{
-    background-color: yellow;
+    background-color: #FFD369;
+    border: 2px solid #FFD369;
 }
 
 .num-selected{
