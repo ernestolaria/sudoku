@@ -41,7 +41,7 @@ body{
 
 .nav-bar .button:hover{
     background-color: #FFD369;
-    border: 2px solid #FFD369;
+    border: 8px solid #FFD369;
 }
 
 .mesage{
@@ -157,10 +157,9 @@ body{
 
 #errase{
     height: 40px;
-    width: 132px;
+    width: 134px;
     margin-top: 3px;
     border-radius: 8px;
-    border: none;
     background-color: #FFD369;
     font-size: 20px;
     font-weight: bold;
@@ -168,7 +167,8 @@ body{
 }
 
 #errase:hover{
-    background-color: yellow;
+    background-color: #fcb612;
+    border: 10px solid #fcb612;
 }
 
 @media (max-width: 2000px) {
